@@ -1,0 +1,63 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+}
+
+
+
+
+/* 2. Content ================================= */
+.results{
+	display: none;
+}
+
+section{
+	// display: none;
+}
+
+section.active{
+	display: block;
+}
+
+
+h1{
+	font-size: 40px;
+
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+
+p{
+	font-size: 20px;
+}
